@@ -1,0 +1,7 @@
+daemon-address=monerod:18081
+rpc-bind-port=18082
+rpc-bind-ip=0.0.0.0
+confirm-external-bind=true
+disable-rpc-login=true
+wallet-dir=/opt/wallet
+log-file=/opt/wallet-rpc.log
