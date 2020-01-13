@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 APP_PATH="/opt/docker-app/wallet-rpc"
 docker rm -f wallet-rpc
 docker run -d \
