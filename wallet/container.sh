@@ -9,4 +9,4 @@ docker run -d \
         -v $APP_PATH/wallet:/opt/wallet \
         -v $APP_PATH/monero-wallet-rpc:/opt/monero-wallet-rpc \
         -v $(pwd)/config:/opt/config \
-        ubuntu:18.04 /opt/monero-wallet-rpc --config-file /opt/config
+        ubuntu:20.04 /opt/monero-wallet-rpc --config-file /opt/config
